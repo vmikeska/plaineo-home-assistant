@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Plaineo",
+        "description": "Sign in to Plaineo to connect Home Assistant."
+      },
+      "auth": {
+        "title": "Connect Plaineo",
+        "description": "Continue in the Plaineo window to authorize Home Assistant."
+      },
+      "finish": {
+        "title": "Installation successful",
+        "description": "[Open the Plaineo Home Assistant setup guide]({setup_guide_url}).\n\n{esphome_next_step}"
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach Plaineo. Check the API URL.",
+      "invalid_auth": "Plaineo rejected this API key.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "Plaineo is already configured.",
+      "auth_cancelled": "Plaineo authorization was cancelled.",
+      "cannot_connect": "Could not reach Plaineo.",
+      "invalid_auth": "Plaineo rejected the authorization.",
+      "reauth_successful": "Plaineo was reconnected successfully."
+    }
+  }
+}
